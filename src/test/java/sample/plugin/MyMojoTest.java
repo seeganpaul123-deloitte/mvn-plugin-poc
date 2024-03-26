@@ -36,7 +36,7 @@
 //        assertNotNull( pom );
 //        assertTrue( pom.exists() );
 //
-//        MyMojo myMojo = ( MyMojo ) rule.lookupConfiguredMojo( pom, "touch" );
+//        Hello myMojo = ( Hello ) rule.lookupConfiguredMojo( pom, "touch" );
 //        assertNotNull( myMojo );
 //        myMojo.execute();
 //
